@@ -1,0 +1,91 @@
+/**
+Palette: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+606C38 - light green
+283618 - dark green 
+FEFAE0 - specific shade of white 
+DDA15E - light brown
+BC6C25 - dark brown
+
+*/
+
+#hero {
+    background-image: url("images/Kenya.jpg");
+    background-size: cover;
+    height: 340px;
+    color: #FEFAE0;
+    text-shadow: 0px 0px 10px black;
+    margin: none;
+    margin-bottom: none;
+}
+.main-title {
+    margin: 0px auto;
+    width: 410px;
+    height: 50px;
+    background: linear-gradient(#606C38, #FEFAE0);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.summary {
+    margin: 7px auto;
+    width: 410px;
+    height: 50px;
+    background: linear-gradient(#606C38, #FEFAE0);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+#activities {
+    margin: 0px;
+    background: #FEFAE0;
+    height: 380px;
+    
+}
+.activities-heading {
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.top-3-places {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.ape {
+    border-radius: 40%;
+    width: 150px;
+}
+
+
+.guide-card {
+    width: 400px;
+    height: 250px;
+    margin: 60px 160px 80px 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #283618;
+    color: #FEFAE0;
+    border-bottom: 9px solid #DDA15E;
+    border-radius: 10px;
+}
+
+.guide-card:hover {
+    background-color: #606C38;
+}
